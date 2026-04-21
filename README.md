@@ -183,7 +183,10 @@ Overall, the goal is to better understand when machine learning models can actua
 ml_asset_pricing/
 ├── data/
 │   ├── sp500_tickers_2026.csv
-│   └── raw/
+│   ├── raw/
+│   │   └── README.txt
+│   └── processed/
+│       └── README.txt
 ├── src/
 │   ├── data_loader.py
 │   ├── feature_engineering.py
@@ -195,6 +198,8 @@ ml_asset_pricing/
 │       ├── elastic_net.py
 │       └── tree.py
 ├── notebooks/
-└── README.md 
+│   └── main.ipynb   
+└── README.md
+
 ```
 
