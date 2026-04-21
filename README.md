@@ -14,6 +14,11 @@ In this project, I focus on understanding when and why nonlinear models do not o
 
 To explore this, I implemented a simplified cross-sectional asset pricing framework and compared several models (OLS, Elastic Net, Random Forest). I also looked at how things like the number of stocks and feature complexity affect performance in a noisy financial environment.
 
+This project shows that, under constrained data conditions,
+nonlinear models do not necessarily outperform linear models in asset pricing.
+
+It highlights that data quality and structure can be more important than model complexity.
+
 
 ## Project Motivation
 
@@ -125,7 +130,9 @@ Overall, the results are mixed:
 
 - OLS shows a clear improvement in Sharpe ratio  
 - Elastic Net remains relatively stable  
-- Random Forest does not improve and slightly underperforms compared to the baseline  
+- Random Forest does not improve and slightly underperforms compared to the baseline
+
+Overall, the results do not support the initial expectation that increasing data complexity would significantly improve nonlinear model performance.
 
 ### Summary
 
@@ -177,6 +184,11 @@ to see whether they can better capture nonlinear relationships.
 
 Overall, the goal is to better understand when machine learning models can actually provide meaningful improvements in asset pricing.
 
+## How to Run
+
+The main experiment can be reproduced using:
+
+**notebooks/main.ipynb**
 
 ## Repository Structure
 ```
