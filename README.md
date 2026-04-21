@@ -179,7 +179,7 @@ Overall, the goal is to better understand when machine learning models can actua
 
 
 ## Repository Structure
-'''
+```
 ml_asset_pricing/
 ├── data/
 │   ├── sp500_tickers_2026.csv
@@ -196,5 +196,5 @@ ml_asset_pricing/
 │       └── tree.py
 ├── notebooks/
 └── README.md 
-'''
+```
 
